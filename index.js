@@ -2,7 +2,7 @@ const express = require('express');
 const { getDog, getDogs } = require('./database')
 
 const app = express()
-const port = 9001
+const port = 8080
 
 app.use('/', express.static(__dirname + '/assets'));
 
