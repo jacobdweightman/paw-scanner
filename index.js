@@ -19,7 +19,7 @@ app.get("/dogs/:objectID", function(req, res) {
     }).catch(error => {
         console.log("error");
         console.log(error);
-        res.send(error);
+        res.status(404).send(error);
     });
 });
 
@@ -33,7 +33,7 @@ app.get("/dogs", function(req, res) {
         });
         res.send(modifiedValues);
     }).catch(error => {
-        res.send(error);
+        res.status(404).send(error);
     });
 })
 

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="shla384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="pawScanner.css">
 
+    <script src="pawScanner.js"></script>
 
     <title>Paw Scanner</title>
   </head>
@@ -60,22 +61,21 @@
     <div class="card card-section">
         <img class="card-img-top rounded-circle" src="download.jpeg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Name: Finn </h5>
-          <h5 class="card-title">Address: 123rd Street South East, St Cloud </h5>
-          <h5 class="card-title">Zip Code: 56304 </h5>
-          <h5 class="card-title">Owner Name: Sawa Mali </h5>
-          <h5 class="card-title">Owner Contact: 320-222-222</h5>
-         
-          <br>
-
-          <div class="container">
-              <div class="row">
-                <div class="col text-center">
-                 <a href="tel:320-222-222" class="btn btn-lg btn-primary btn-center">Call Now</a>
-                </div>
+          <div class="container" id="contact">
+            <div class="row">
+              <h5 class="card-title" id="owner">Owner contact: </h5>
+              <div class="col text-center">
+                <a href="tel:320-222-222" class="btn btn-lg btn-primary btn-center">Call Now</a>
               </div>
             </div>
-          
+          </div>
+          <h5 class="card-title" id="name">Name: </h5>
+          <h5 class="card-title" id="zip">Zip Code: </h5>
+          <h5 class="card-title" id="DoB">Date of Birth: </h5>
+          <h5 class="card-title" id="color">Color: </h5>
+          <div class="card-title" id="vaccines"></div>
+         
+          <br>
         </div>
     </div>
   </div>

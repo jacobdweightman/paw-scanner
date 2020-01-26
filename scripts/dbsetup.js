@@ -29,13 +29,11 @@ async function clean(db) {
 async function populate(db) {
     return await db.db("paw-scanner").collection("dogs").insertMany([
         {
-            "name": "Bob",
-            "DoB": "1-2-2015",
-            "location": {
-                "lat": 41.40338,
-                "long": 2.174030
-            },
-            "color": "brown",
+            "name": "Finn",
+            "ownerContact": "651-555-5555",
+            "zip": 56301,
+            "DoB": "1-26-2015",
+            "color": "brown and black",
             "vaccinations": [
                 {
                     "name": "rabies",
@@ -47,6 +45,13 @@ async function populate(db) {
                     "notes": "allergic reaction at injection site"
                 }
             ]
+        },
+
+        {
+            "name": "Ben",
+            "zip": 56301,
+            "DoB": "1-31-2012",
+            "color": "Gray",
         }
     ]);
 }
