@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+
+}
+
+img {
+    width: 100%;
+}
+
+.jumbotron
+{
+    margin-bottom: 0rem;
+}
+
+.cover
+{
+    background-image: url(wallpaper6-blur.jpg);
+    background-size: cover;
+    height: 100vh;
+  
+
+}
+
+#cover-caption
+{
+margin-top: 4rem;
+}
+
+
+.welcome-hd
+{
+font-weight: 800;
+color: black;
+}
+
+.welcome-pg
+{
+    color:black;
+    font-weight: 450;
+}
+
+
+.card-section
+{
+width:500px;
+margin-left:auto;
+margin-right: auto;
+
+}
+
+
+
+
+
+.footer
+{
+margin-top: 0rem;
+
+}
+
+
+.contact-card-container
+{
+    background-image: url('wallpaper-blur.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+/* media query */
+@media only screen and (max-width: 550px) 
+{
+.card-section
+{
+
+    width:100%;
+    height: auto;
+}
+
+
+
+.welcome-pg
+{
+    color:black;
+    font-size:1.08rem;
+}
+#cover-caption
+{
+margin-top: 0.5rem;
+}
+
+h5
+{
+    font-size: 0.88rem;
+}
+}
